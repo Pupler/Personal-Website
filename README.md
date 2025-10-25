@@ -1,2 +1,2 @@
-# Personal-Website
-Professional portfolio website featuring my projects and skills
+# 💼 Personal-Website
+My professional portfolio website featuring my projects and skills
