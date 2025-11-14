@@ -1,33 +1,39 @@
 .app {
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
   font-family: Arial, sans-serif;
+  background: #1a1a1a;
+  color: white;
+  min-height: 100vh;
+}
+
+body {
+  background: #1a1a1a;
 }
 
 .header {
   text-align: center;
   padding: 40px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #333;
 }
 
 .header h1 {
   margin: 0;
-  color: #333;
+  color: white;
 }
 
 .header p {
-  color: #666;
+  color: #ccc;
   margin: 10px 0 0 0;
 }
 
 section {
   padding: 40px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #333;
 }
 
 h2 {
-  color: #333;
+  color: white;
   margin-bottom: 20px;
 }
 
@@ -38,37 +44,38 @@ h2 {
 }
 
 .skills-list span {
-  background: #f0f0f0;
+  background: #333;
+  color: white;
   padding: 8px 16px;
   border-radius: 20px;
   font-size: 14px;
 }
 
 .project {
-  background: white;
+  background: #2d2d2d;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
 .project h3 {
   margin: 0 0 10px 0;
-  color: #333;
+  color: white;
 }
 
 .project p {
   margin: 0;
-  color: #666;
+  color: #ccc;
 }
 
 .contact p {
-  color: #333;
+  color: white;
   font-size: 16px;
 }
 
 .project-link {
-  color: #007bff;
+  color: #4dabf7;
   text-decoration: none;
 }
 .project-link:hover {
