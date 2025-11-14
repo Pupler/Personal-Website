@@ -5,7 +5,7 @@ My professional portfolio built with modern technologies.
 
 ## Tech Stack
 - **Frontend:** React + TypeScript
-- **Styling:** Tailwind CSS
+- **Styling:** CSS
 - **Deployment:** Vercel
 
 ## Features
