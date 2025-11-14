@@ -25,7 +25,12 @@ function App() {
           <span>Laravel</span>
           <span>PHP</span>
           <span>MySQL</span>
-          <span>More skills will be added soon...</span>
+          <span>Git</span>
+          <span>GitHub</span>
+          <span>Linux</span>
+          <span>Arch Linux</span>
+          <span>Java</span>
+          <span>C#</span>
         </div>
       </section>
 
