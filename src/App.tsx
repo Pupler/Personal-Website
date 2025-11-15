@@ -112,9 +112,10 @@ function App() {
         <a target='_blank' href="https://www.linkedin.com/in/pupler/">LinkedIn</a>
       </section>
 
-      <footer className="footer">
+      {/* <footer className="footer">
         <p>© 2025 Mykhailo Horpynych. Built with React & TypeScript</p>
-      </footer>
+      </footer> */}
+      
     </div>
   );
 }
