@@ -81,3 +81,37 @@ h2 {
 .project-link:hover {
   text-decoration: underline;
 }
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.social-links a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.social-links a::before {
+  content: "↗";
+  font-size: 14px;
+}

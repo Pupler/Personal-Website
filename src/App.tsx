@@ -43,6 +43,11 @@ function App() {
         <h2>Contact</h2>
         <p>Will be added soon...</p>
       </section>
+
+      <section className="social-links">
+        <a href="https://github.com/Pupler">GitHub</a>
+        <a href="https://www.linkedin.com/in/pupler/">LinkedIn</a>
+      </section>
     </div>
   );
 }
