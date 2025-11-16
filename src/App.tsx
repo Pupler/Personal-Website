@@ -54,8 +54,8 @@ function App() {
                 <span>Blade</span>
               </div>
               <div className="project-links">
-                <a href="#" className="project-link">Live Demo ↗</a>
-                <a href="#" className="project-link secondary">Code</a>
+                <a href="#" target='_blank' className="project-link">Live Demo ↗</a>
+                <a href="https://github.com/Pupler/Crypto-Exchange-Website" target='_blank' className="project-link secondary">Code</a>
               </div>
             </div>
           </div>
@@ -74,8 +74,8 @@ function App() {
                 <span>SQLite</span>
               </div>
               <div className="project-links">
-                <a href="#" className="project-link">Live Demo ↗</a>
-                <a href="#" className="project-link secondary">Code</a>
+                <a href="#" target='_blank' className="project-link">Live Demo ↗</a>
+                <a href="https://github.com/Pupler/Uni-Forum-Project" target='_blank' className="project-link secondary">Code</a>
               </div>
             </div>
           </div>

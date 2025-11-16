@@ -137,7 +137,7 @@ section {
 
 
 
-
+/* Projects container */
 
 
 .projects-showcase {
@@ -247,4 +247,69 @@ section {
 
 .project-link.secondary:hover {
   background: rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .app {
+    padding: 0 15px;
+  }
+  
+  .header {
+    padding: 40px 0 30px;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+  }
+  
+  .header p {
+    font-size: 1.1rem;
+  }
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  h2 {
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+  }
+  
+  .projects-showcase {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  
+  .project-card {
+    margin-bottom: 0;
+  }
+  
+  .project-links {
+    flex-direction: column;
+  }
+  
+  .skills-list {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .skills-list span {
+    padding: 12px 15px;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+  
+  .project-info {
+    padding: 15px;
+  }
+
 }
