@@ -62,7 +62,7 @@ function App() {
 
           <div className="project-card">
             <div className="project-preview">
-              <img src="/images/uni-forum-project-preview.png" alt="Uni-Forum-Project" className="preview-image" />
+              <img src="/images/uni-forum-project-preview.jpg" alt="Uni-Forum-Project" className="preview-image" />
             </div>
             <div className="project-info">
               <h3>UNI Forum Project</h3>
