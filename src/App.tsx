@@ -94,8 +94,8 @@ function App() {
                 <span>Local Storage</span>
               </div>
               <div className="project-links">
-                <a href="#" className="project-link">Live Demo ↗</a>
-                <a href="#" className="project-link secondary">Code</a>
+                <a href="https://to-do-app-weld-two.vercel.app/" target='_blank' className="project-link">Live Demo ↗</a>
+                <a href="https://github.com/Pupler/My-Todo-App" target='_blank' className="project-link secondary">Code</a>
               </div>
             </div>
           </div>
