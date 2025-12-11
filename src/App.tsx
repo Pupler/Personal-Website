@@ -30,7 +30,9 @@ function App() {
           <span>Linux</span>
           <span>Arch Linux</span>
           <span>Java</span>
+          <span>C++</span>
           <span>C#</span>
+          <span>TypeScript</span>
         </div>
       </section>
 
